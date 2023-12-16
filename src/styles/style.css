@@ -41,5 +41,6 @@ section{
   padding: 20px 0;
 }
 
-
-
+.btn-edit{
+  padding: 10px 20px;
+}

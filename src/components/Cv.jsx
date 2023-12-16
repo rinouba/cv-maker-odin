@@ -10,7 +10,7 @@ function Cv({toggle,setToggle}) {
         <GeneralInfo toggle={toggle}/>
         <EductailExp toggle={toggle}/>
         <PracticalExp toggle={toggle}/>
-        <button onClick={() => { setToggle(!toggle) }}>Edit</button>
+        <button className='btn-edit' onClick={() => { setToggle(!toggle) }}>Edit</button>
     </div>
   )
 }
